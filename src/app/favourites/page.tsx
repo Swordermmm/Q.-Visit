@@ -1,11 +1,11 @@
 import Image from "next/image";
-import styles from "./page.module.css";
-import CompanyCard from "./components/companyCard";
+import styles from "../page.module.css";
+import CompanyCard from "../components/companyCard";
 
-export default function CompanyCatalogue() {
+export default function Favourite() {
   return (
     <div className={styles.main}>
-      <h2 className={styles.mainTitle}>Каталог услуг</h2>
+      <h2 className={styles.mainTitle}>Избранное</h2>
       <CompanyCard
         name="Q.Visit"
         rating="4.87"

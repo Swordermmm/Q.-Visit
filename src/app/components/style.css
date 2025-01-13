@@ -1,0 +1,254 @@
+::placeholder {
+    color: #CDCDCD;
+}
+
+.head-container {
+    background: linear-gradient(45deg, #D986FF, #3C15C6);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.wrap {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.head-logo {
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.head-logo a {
+    padding: 10px 20px 0 0;
+}
+
+.head-wrapper {
+    display: flex;
+}
+
+.head-register {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+button {
+    width: 147px;
+    height: 42px;
+    border-radius: 10px;
+    border: 0px;
+    color: #8449E0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.business {
+    width: 304px;
+    border: solid 2px #ffffff;
+    background: rgba(255, 255, 255,0);
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.search-bar-container {
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.search-bar-container input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #8449E0;
+    padding: 7px 0;
+}
+
+.categories {
+    margin: 0 auto;
+    gap: 20px
+}
+
+.category-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.category-container:hover {
+    background-color: #e2e0e0;
+}
+
+.category-container a {
+    padding: 0;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.navbar {
+    margin: 0 auto;
+    background-color: #8449E0;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a {
+    width: 100%;
+    font-size: 15px;
+    background-color: #8449E0;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar a:hover {
+    background-color: #723fc4;
+}
+
+.navbar .active {
+    width: 100%;
+    background-color: #ffffff;
+    color: #8449E0;
+}
+
+.navbar .active:hover {
+    background-color: #e2e0e0;
+}
+
+
+
+.company-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 700px;
+    padding: 10px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #D684FE, #5221FF);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 10px;
+}
+
+.company-desc {
+    margin: 20px 40px 0 10px;
+    max-width: 480px;
+}
+
+.company-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.company-req {
+    min-width: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 35px 40px 35px  0 ;
+}
+
+.company-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company-buttons img {
+    cursor: pointer;
+}
+
+
+
+.footer-container {
+    background-color: #C6C6C6;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px auto;
+    
+}
+
+.footer-container h2 {
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.footer-container a {
+    font-size: 11px;
+    max-width: 530px;
+    min-width: 100px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 90px;
+}
+
+.footer-info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-info-group a {
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.order-container {
+    display: flex;
+    padding: 0 20px;
+}
+
+.order-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.order-info a {
+    width: 80px;
+}
+
+.order-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+}
+
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+}

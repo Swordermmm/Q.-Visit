@@ -1,0 +1,14 @@
+<svg width="63" height="47" viewBox="0 0 63 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.5 19.5002C31.5 19.5002 31.5003 14.5002 31.5001 12.0002C31.4999 9.5 32.5 8 34.5 8C36.5 8 38 9.5 38 12C38 14.5 39 16 41 16C43 16 44 14.3515 44 12.0002C44 9.00021 44 0 44 0" stroke="#2895A2" stroke-width="2"/>
+<circle cx="14" cy="32.5" r="8" stroke="#2895A2" stroke-width="2"/>
+<circle cx="49" cy="32.5" r="8" stroke="#2895A2" stroke-width="2"/>
+<rect x="1" y="19.5" width="61" height="26" rx="13" stroke="#2895A2" stroke-width="2"/>
+<path d="M10 32.5H18" stroke="#2895A2" stroke-width="2" stroke-linecap="round"/>
+<path d="M25 39.5H29" stroke="#2895A2" stroke-width="2" stroke-linecap="round"/>
+<path d="M34 39.5H38" stroke="#2895A2" stroke-width="2" stroke-linecap="round"/>
+<path d="M14 36.5L14 28.5" stroke="#2895A2" stroke-width="2" stroke-linecap="round"/>
+<circle cx="49" cy="28.5" r="1.5" fill="#2895A1" stroke="#2895A2"/>
+<circle cx="49" cy="36.5" r="1.5" fill="#2895A1" stroke="#2895A2"/>
+<circle cx="45" cy="32.5" r="1.5" fill="#2895A1" stroke="#2895A2"/>
+<circle cx="53" cy="32.5" r="1.5" fill="#2895A1" stroke="#2895A2"/>
+</svg>
