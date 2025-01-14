@@ -9,6 +9,7 @@ interface CompanyProps {
   phone: string;
   vk: string;
   image: string;
+  children: React.ReactNode;
 }
 
 export default function CompanyCard({
@@ -19,26 +20,30 @@ export default function CompanyCard({
   phone,
   image,
   vk,
+  children,
 }: CompanyProps) {
   return (
-    <div className="company-container">
-      <Image src={image} height={153} width={253} alt="company" />
-      <div className="company-desc">
-        <div style={{ display: "flex", gap: "20px" }}>
-          <h2>{name}</h2>
-          <h3>{rating}</h3>
+    <>
+      <div className="company-container">
+        <Image src={image} height={153} width={253} alt="company" />
+        <div className="company-desc">
+          <div style={{ display: "flex", gap: "20px" }}>
+            <h2>{name}</h2>
+            <h3>{rating}</h3>
+          </div>
+          <p>{desc}</p>
         </div>
-        <p>{desc}</p>
+        <div className="company-req">
+          <a>{address}</a>
+          <a>{phone}</a>
+          <a>{vk}</a>
+        </div>
+        <div className="company-buttons">
+          <Image src="/favourite.svg" height={12} width={14} alt="favourite" />
+          <Image src="/arrow.svg" height={12} width={14} alt="arrow" />
+        </div>
       </div>
-      <div className="company-req">
-        <a>{address}</a>
-        <a>{phone}</a>
-        <a>{vk}</a>
-      </div>
-      <div className="company-buttons">
-        <Image src="/favourite.svg" height={12} width={14} alt="favourite" />
-        <Image src="/arrow.svg" height={12} width={14} alt="arrow" />
-      </div>
-    </div>
+      {children}
+    </>
   );
 }

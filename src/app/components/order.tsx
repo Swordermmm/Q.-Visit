@@ -27,7 +27,7 @@ export default function Order({ name, price, date, time }: OrderProps) {
         </div>
       </div>
       <button>Оценить</button>
-      <div>
+      <div className="order-buttons">
         <a>
           <Image src="/edit.svg" height={14} width={14} alt="delete"></Image>
         </a>

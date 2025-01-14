@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 
 export default function Navigation() {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <div className="navbar wrap">
